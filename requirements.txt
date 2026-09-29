@@ -1,0 +1,15 @@
+numpy<2.3        # brian2 2.9 ещё не совместим с numpy 2.3+
+scipy
+pandas
+pyarrow
+scikit-learn
+matplotlib
+joblib
+brian2==2.9.0
+cython
+sentence-transformers
+torch
+jupyter
+ipykernel
+nbformat
+nbconvert

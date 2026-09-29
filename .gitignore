@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.cache/
+data/img-cache/
+.venv/
+data/fly/item_emb.npy
+.ipynb_checkpoints/
+data/private/
