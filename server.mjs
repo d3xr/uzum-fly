@@ -82,7 +82,7 @@ function card(i, extra = {}) {
   const p = catalog[i];
   return {
     id: p.id, title: p.title, category: p.category, leaf: p.leaf,
-    image: localImageIds.has(p.id) ? p.image : (p.cdn ? `/img/${p.id}.jpg` : null),
+    image: p.cdn ? `/img/${p.id}.jpg` : (localImageIds.has(p.id) ? p.image : null),
     url: `https://uzum.uz/ru/search?query=${encodeURIComponent(p.title)}`,
     ...extra,
   };
